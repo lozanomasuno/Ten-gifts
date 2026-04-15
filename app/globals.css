@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+/* ── App Design Tokens ──────────────────────────────────────────────────── */
+@theme inline {
+  /* Warm neutral palette — minimal, emocional */
+  --color-background: #fafaf9;   /* stone-50  */
+  --color-surface: #ffffff;
+  --color-accent: #f59e0b;       /* amber-400 */
+  --color-accent-dark: #d97706;  /* amber-600 */
+  --color-text: #1c1917;         /* stone-900 */
+  --color-muted: #78716c;        /* stone-500 */
+  --color-border: #e7e5e4;       /* stone-200 */
+}
+
+/* ── Base ───────────────────────────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Force light mode — the app is designed for a single light theme */
+  color-scheme: light;
+}
+
+body {
+  background-color: #fafaf9;
+  color: #1c1917;
+  font-family: inherit;
+}
+
+/* ── Scrollbar (minor aesthetic touch) ─────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d6d3d1; /* stone-300 */
+  border-radius: 9999px;
+}
