@@ -54,5 +54,11 @@ Si deseas comenzar de nuevo, puedes usar la opcion `Reiniciar datos` dentro de l
 
 Premiarte tambien es avanzar.
 Haz del reconocimiento personal un habito, no una excepcion.
-# Ten-gifts
-# Ten-gifts
+
+## Saludo del autor
+
+Gracias por darte el permiso de celebrar tus avances.
+Esta experiencia fue creada con aprecio para recordarte que tambien mereces reconocer lo que construyes cada dia.
+
+Creado por Nelson Lozano.
+/lozanomasuno
